@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ed2d34;
+}
+
+body{
+    background-color: #000 !important;
+}
+/* .primary-background{
+  background-color: #000 !important;
+} */
+
+.admin .card:hover{
+    background: #f0f1f2 !important;
+    cursor: pointer;
+}
+.custombg{
+    background:#000000;
+}
+
+/*.cat-item{
+    color: white;
+    
+}*/
+.cat-item:hover{
+    color: black;
+}
+.list-group-item.active{
+    background: #ed2d34 !important;
+}
+.list-group-item{
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: white;
+}
+.list-group-item:hover{
+    background: black !important;
+    color: whitesmoke;
+}
+.card{
+    border:  #ed2d34  !important;
+}
+.card-body{
+    background: #000 !important; 
+    color: white;
+    cursor: pointer;
+    border:  #ed2d34  !important;
+
+}
+.btn-cart{
+    background: orange;
+}

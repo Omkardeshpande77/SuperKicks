@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ed2d34;
+}
+
+body {
+  background: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.active {
+  padding-top: 30rem;
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  color: #ed2d34;
+}
+
+.btn-home {
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0.2rem solid white;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  border-color: #ed2d34;
+  color: #fff;
+  background: #ed2d34;
+}
+
+
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.banner .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 41rem;
+          flex: 1 1 41rem;
+}
+
+.banner .content span {
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.banner .content h3 {
+  font-size: 4rem;
+  color: #f44336;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.banner .content p {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.banner .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 41rem;
+          flex: 1 1 41rem;
+}
+
+.banner .image img {
+  width: 100%;
+}
+
+.information  {
+  color: white;
+}
+.information span {
+  color: #ed2d34;
+}
